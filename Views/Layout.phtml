@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Watchdog</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" />
+	<link rel="stylesheet" href="/Assets/style.css" />
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="brand" href="/">Watchdog</a>
+			<ul class="nav">
+				<li tal:condition="false" class="active"><a href="/">Home</a></li>
+				<li><a href="/issues">Issues</a></li>
+				<li><a href="/api_details">API Details</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="container">
+<!-- PageContent Starts -->
+${structure pageContent}
+
+<!-- PageContent Ends -->
+</div>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
